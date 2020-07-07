@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+hr.new1{
+    border: 1px solid green;
+    width: 90px;
+
+}
+hr.new2{
+    border: 1px solid green;
+    width: 50px;
+
+}
+hr.new3{
+    border: 1px solid green;
+    width: 100px;
+
+}
+
+#contact{
+    padding-top: 0;
+}
+.fa, .fas {
+    font-family: 'FontAwesome';
+}
+.social-icon {
+    color: black;
+    background: green; 
+    font-size: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  li:hover {
+      transform: translateY(-6px);
+      transition:0.3s;
+  }
+ body, h1,h2,h3,h4,h5,h6 {
+     font-family: "Montserrat", sans-serif;
+    }
+
+.w3-sidebar {
+    background:wheat;
+}
+#main {
+    margin-left: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
